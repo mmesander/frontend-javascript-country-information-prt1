@@ -56,12 +56,21 @@ ul span {
 }
 
 .outerListContainer {
-  border: 3px solid green;
+  background-color: #d3d3d3;
+  flex-direction: row;
+  justify-items: center;
   margin-inline: 20px;
+  display: flex;
 }
 
 ul {
   list-style-type: none;
+}
+
+#countriesList {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  display: grid;
 }
 
 /*# sourceMappingURL=index.4d663569.css.map */

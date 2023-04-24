@@ -58,10 +58,20 @@ ul span {
 }
 
 .outerListContainer {
-    border: 3px solid green;
     margin-inline: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    background-color: lightgrey;
+
 }
 
 ul {
     list-style-type: none;
+}
+
+#countriesList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }

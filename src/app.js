@@ -4,6 +4,7 @@ async function fetchCountries() {
     try {
         const response = await axios.get('https://restcountries.com/v3.1/all?fields=name,population,flags,continents');
         const countryData = response.data;
+        countryData.sort((a, b) => a.population - b.population)
 
         const countryList = document.getElementById('countriesList');
         const listOutput = countryData.map((country) => {
