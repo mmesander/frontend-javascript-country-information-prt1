@@ -63,6 +63,7 @@ ul span {
     flex-direction: row;
     justify-items: center;
     background-color: lightgrey;
+    border-radius: 10px;
 
 }
 
