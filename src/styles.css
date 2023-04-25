@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*border: 1px solid indianred;*/
+}
+
+.imageContainer {
+    width: 80vw;
+    display: flex;
+}
+
+.imageContainer img {
+    width: 100%;
+    display: flex;
+
+}
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 70px;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.northAmerica {
+    color: #4a7849;
+}
+
+.southAmerica {
+    color: #6AC487;
+}
+
+.europe {
+    color: #FFD435;
+}
+
+.africa {
+    color: #5575C1;
+}
+
+.asia {
+    color: #D14E5B;
+}
+
+.oceania {
+    color: #A653BA;
+}
+
+ul img {
+    width: 40px;
+    padding-top: 10px;
+}
+
+ul span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.outerListContainer {
+    margin-inline: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    background-color: lightgrey;
+    border-radius: 10px;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+#countriesList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}

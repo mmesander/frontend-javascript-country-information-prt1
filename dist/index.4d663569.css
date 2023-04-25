@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.imageContainer {
+  width: 80vw;
+  display: flex;
+}
+
+.imageContainer img {
+  width: 100%;
+  display: flex;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 30px;
+  font-family: Sedgwick Ave Display, cursive;
+  font-size: 70px;
+}
+
+.northAmerica {
+  color: #4a7849;
+}
+
+.southAmerica {
+  color: #6ac487;
+}
+
+.europe {
+  color: #ffd435;
+}
+
+.africa {
+  color: #5575c1;
+}
+
+.asia {
+  color: #d14e5b;
+}
+
+.oceania {
+  color: #a653ba;
+}
+
+ul img {
+  width: 40px;
+  padding-top: 10px;
+}
+
+ul span {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.outerListContainer {
+  background-color: #d3d3d3;
+  flex-direction: row;
+  justify-items: center;
+  margin-inline: 20px;
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#countriesList {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  display: grid;
+}
+
+/*# sourceMappingURL=index.4d663569.css.map */
